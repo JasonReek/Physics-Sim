@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="SimulatorStyle.css">
+    <title>Physics Simulator</title>
+</head>
+<body onload="start()">
+    <!-- Simulator starts here -->
+    <div style="margin: auto 0;">
+
+
+        <canvas class="SimCanvas">Time to update your browser!</canvas>
+
+    </div>
+    <table id="stats">
+        <tr>
+            <td style="width: 50%;"><strong>Time: </strong><span id="time">0</span> seconds</td><td><strong>Coordinates: </strong><span id="output"></span></td>
+        </tr>
+        <tr>
+            <td style="width: 50%;"><strong>Velocity: </strong><span id="velocity">0</span> m/s</td><td><strong>Acceleration: </strong><span id="acceleration"></span></td>
+
+        </tr>
+        <tr>
+            <td><input type="button" id="dwn-btn" value="Download"/></td>
+        </tr>
+
+    </table>
+    <script type="text/javascript" src="Simulator.js"></script>
+</body>
+</html>

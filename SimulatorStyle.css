@@ -1,0 +1,25 @@
+canvas {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    '+36
+    width: 456px;
+}
+
+#stats {
+    border-collapse: collapse;
+    box-shadow: inset 0 1px 0 #fff;
+    font-size: 12px;
+    line-height: 24px;
+    margin: 20px auto;
+    text-align: left;
+    width: 500px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#stats td {border: 1px solid #ddd;}
+#stats tr:nth-child(even) {background-color: #e9e9e9;}
+#stats tr:hover {background-color: #bbb;}
